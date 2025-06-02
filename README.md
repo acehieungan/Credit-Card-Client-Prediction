@@ -14,7 +14,7 @@ This project aims to build and evaluate machine learning models to predict credi
 | Tools Used                 | Python, Pandas, Scikit-learn, Keras         |
 | Key Techniques             | EDA, Feature Engineering, SMOTE, Modeling   |
 
----
+
 
 ## Exploratory Data Analysis (EDA)
 
@@ -25,7 +25,7 @@ Initial analysis revealed a clear class imbalance and a few categorical anomalie
 - **No missing or duplicate values**
   
 
----
+
 
 ## Data Preprocessing
 
@@ -37,9 +37,9 @@ To prepare the data, we applied the following steps:
 - **Scaling**: Standardized features using `StandardScaler`
 - **Balancing**: Applied SMOTE to training set to fix class imbalance
 
----
 
-## 🧠 Models and Results
+
+## Models and Results
 
 | Model                  | Accuracy | F1-Score (Default) | ROC-AUC |
 |------------------------|----------|--------------------|---------|
@@ -48,18 +48,18 @@ To prepare the data, we applied the following steps:
 | Support Vector Machine | 77%      | 0.52               | 0.7469  |
 | MLP Neural Network     | **80%**  | **0.52**           | **0.7572** |
 
-> 💡 The MLP Neural Network model delivered the best overall performance, especially in handling class imbalance and predicting minority cases.
+> The MLP Neural Network model delivered the best overall performance, especially in handling class imbalance and predicting minority cases.
 
----
 
-## 💡 Key Insights
+
+## Key Insights
 
 - Recent payment behavior is the strongest indicator of default risk.
 - Complex models (Neural Networks, SVM) handle feature interactions better.
 - Demographics have little standalone predictive power.
 - Class balancing (SMOTE) is essential to avoid bias in predictions.
 
----
+
 
 ## Challenges & Solutions
 
@@ -70,13 +70,13 @@ To prepare the data, we applied the following steps:
 | Poor precision in base models | Tuned thresholds and selected better models (Random Forest, MLP)      |
 | Feature scaling               | Standardized inputs for SVM and neural network compatibility           |
 
----
+
 
 ## References
 
 UCI Machine Learning Repository. (n.d.). https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
 
----
+
 
 ## Team Members
 
@@ -87,7 +87,7 @@ UCI Machine Learning Repository. (n.d.). https://archive.ics.uci.edu/dataset/350
 | Bùi Thị Thanh Thảo        | 2232300157     |
 | Trần Tiến Thảo Hiếu Ngân  | 2032300513     |
 
----
+
 
 ## Conclusion
 
