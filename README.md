@@ -1,4 +1,4 @@
-# Credit Card Default Classification MIS 451
+# Credit Card Client Prediction
 
 This project aims to build and evaluate machine learning models to predict credit card default risk using the UCI "Default of Credit Card Clients" dataset. By analyzing customer demographic and payment behavior data, we attempt to classify clients into two categories: those likely to default and those not likely to default.
 
